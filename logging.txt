@@ -1,0 +1,67 @@
+Request method:	GET
+Request URI:	http://api.openweathermap.org/data/2.5/weather?q=Pune&appid=c612f6d83d42fb74d06610204e0a9c3e
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=Pune
+				appid=c612f6d83d42fb74d06610204e0a9c3e
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 01 Jan 2021 11:37:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 483
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=pune
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": 73.86,
+        "lat": 18.52
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 301.08,
+        "feels_like": 301.12,
+        "temp_min": 301.08,
+        "temp_max": 301.08,
+        "pressure": 1010,
+        "humidity": 50,
+        "sea_level": 1010,
+        "grnd_level": 949
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.08,
+        "deg": 155
+    },
+    "clouds": {
+        "all": 79
+    },
+    "dt": 1609500435,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1609465007,
+        "sunset": 1609504744
+    },
+    "timezone": 19800,
+    "id": 1259229,
+    "name": "Pune",
+    "cod": 200
+}

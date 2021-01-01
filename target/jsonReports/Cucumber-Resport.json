@@ -1,0 +1,254 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-01T11:36:17.952Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7951000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.setWebDriverProperties()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify if user can succefully fetch weather information",
+        "description": "",
+        "id": "compare-weather-information;verify-if-user-can-succefully-fetch-weather-information;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22000000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Website with url \"https://www.ndtv.com/\" is loaded with \"Get Latest News, India News, Breaking News, Today\u0027s News - NDTV.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.ndtv.com/\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Get Latest News, India News, Breaking News, Today\u0027s News - NDTV.com\"",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinations.StepDefinationWeatherComp.website_with_url_is_available(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8014000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to \"Weather\" page and pins the \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Weather\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinations.StepDefinationWeatherComp.user_navigated_to_page_and_pins_the_city(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"Pune\" should be available on the map",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pune\"",
+                  "offset": 0
+                }
+              ],
+              "location": "StepDefinations.StepDefinationWeatherComp.should_be_available_on_the_map(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 960000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is able to see weather details of selected \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pune\"",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinations.StepDefinationWeatherComp.user_is_able_to_see_weather_details_of_selected_city(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FetchCityWeather"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T11:36:57.209Z",
+        "line": 21,
+        "name": "Verify if user can succefully fetch weather information from API",
+        "description": "",
+        "id": "compare-weather-information;verify-if-user-can-succefully-fetch-weather-information-from-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4109000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Request payload is available with given \"c612f6d83d42fb74d06610204e0a9c3e\" and \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"c612f6d83d42fb74d06610204e0a9c3e\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 79
+                }
+              ],
+              "location": "StepDefinations.StepDefinationWeatherComp.request_payload_is_available_with_given_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5961000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User call weather api with \"fetchCityWeather\" resource using GET http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fetchCityWeather\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.StepDefinationWeatherComp.user_call_weather_api_using_GET_http_request(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinations.StepDefinationWeatherComp.api_call_is_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FetchApiResponse"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-01T11:37:07.303Z",
+        "line": 25,
+        "name": "Compare UI and API temperature",
+        "description": "",
+        "id": "compare-weather-information;compare-ui-and-api-temperature",
+        "after": [
+          {
+            "result": {
+              "duration": 4834000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.closeWebDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "UI tempreature and API temperatures are successfully fetched",
+            "match": {
+              "location": "StepDefinations.StepDefinationWeatherComp.ui_tempreature_and_API_temperatures_are_successfully_fetched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Compares temp",
+            "match": {
+              "location": "StepDefinations.StepDefinationWeatherComp.compares_temp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Validate if temperature difference is less than given variance",
+            "match": {
+              "location": "StepDefinations.StepDefinationWeatherComp.validate_if_temperature_difference_is_less_than_given_variance()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompareTemperature"
+          }
+        ]
+      }
+    ],
+    "name": "Compare Weather information",
+    "description": "",
+    "id": "compare-weather-information",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/WeatherComparator.feature",
+    "tags": []
+  }
+]
