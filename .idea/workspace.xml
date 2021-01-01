@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa2ec6f3-8b80-4166-a8ca-dedb28cd9ba1" name="Default Changelist" comment="" />
+    <list default="true" id="fa2ec6f3-8b80-4166-a8ca-dedb28cd9ba1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logging.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/WeatherComparator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/WeatherComparator.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/APIresources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/APIresources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/ChromeDriver/chromedriver_win32/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ChromeDriver/chromedriver_win32/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/UnexpectedTemperatureDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/UnexpectedTemperatureDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/global.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinations/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinations/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinations/StepDefinationWeatherComp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinations/StepDefinationWeatherComp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2940538040.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2940538040.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2681251150.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2681251150.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4011263424.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4011263424.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4237740974.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4237740974.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jsonReports/Cucumber-Resport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsonReports/Cucumber-Resport.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cucumber.Options.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cucumber.Options.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumber.Options.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cucumber.Options.TestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Resources/APIresources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Resources/APIresources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Resources/UnexpectedTemperatureDiff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Resources/UnexpectedTemperatureDiff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Resources/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Resources/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinations/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinations/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinations/StepDefinationWeatherComp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinations/StepDefinationWeatherComp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber/Options/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumber/Options/TestRunner.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +48,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -29,6 +63,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1mPljc0KyFetWN0BgQStyCo2JiB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Pojo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -93,22 +129,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1609411647576" />
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1609500974624">
+    <state width="1323" height="289" key="GridCell.Tab.0.bottom" timestamp="1609505318446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609500974624" />
-    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1609500974624">
+    <state width="1323" height="289" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609505318446" />
+    <state width="1323" height="289" key="GridCell.Tab.0.center" timestamp="1609505318446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609500974624" />
-    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1609500974624">
+    <state width="1323" height="289" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609505318446" />
+    <state width="1323" height="289" key="GridCell.Tab.0.left" timestamp="1609505318446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609500974624" />
-    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1609500974624">
+    <state width="1323" height="289" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609505318446" />
+    <state width="1323" height="289" key="GridCell.Tab.0.right" timestamp="1609505318446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609500974624" />
+    <state width="1323" height="289" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609505318446" />
+    <state x="390" y="0" width="586" height="728" key="find.popup" timestamp="1609503779533">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="586" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1609503779533" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609499419509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,4 +1,4 @@
-StepDefinations\StepDefinationWeatherComp.class
-Resources\Utils.class
-Resources\APIresources.class
+resources\APIresources.class
+resources\Utils.class
+stepDefinations\StepDefinationWeatherComp.class
 cucumber\Options\TestRunner.class

@@ -13,9 +13,9 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: openresty
-Date: Fri, 01 Jan 2021 11:37:04 GMT
+Date: Fri, 01 Jan 2021 12:50:13 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 483
+Content-Length: 485
 Connection: keep-alive
 X-Cache-Key: /data/2.5/weather?q=pune
 Access-Control-Allow-Origin: *
@@ -29,32 +29,32 @@ Access-Control-Allow-Methods: GET, POST
     },
     "weather": [
         {
-            "id": 803,
+            "id": 804,
             "main": "Clouds",
-            "description": "broken clouds",
-            "icon": "04d"
+            "description": "overcast clouds",
+            "icon": "04n"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": 301.08,
-        "feels_like": 301.12,
-        "temp_min": 301.08,
-        "temp_max": 301.08,
-        "pressure": 1010,
-        "humidity": 50,
-        "sea_level": 1010,
+        "temp": 299.06,
+        "feels_like": 299.79,
+        "temp_min": 299.06,
+        "temp_max": 299.06,
+        "pressure": 1011,
+        "humidity": 55,
+        "sea_level": 1011,
         "grnd_level": 949
     },
     "visibility": 10000,
     "wind": {
-        "speed": 3.08,
-        "deg": 155
+        "speed": 1.89,
+        "deg": 119
     },
     "clouds": {
-        "all": 79
+        "all": 98
     },
-    "dt": 1609500435,
+    "dt": 1609504843,
     "sys": {
         "country": "IN",
         "sunrise": 1609465007,

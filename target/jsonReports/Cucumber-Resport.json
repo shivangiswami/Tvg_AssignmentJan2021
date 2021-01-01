@@ -3,15 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-01T11:36:17.952Z",
+        "start_timestamp": "2021-01-01T12:49:09.327Z",
         "before": [
           {
             "result": {
-              "duration": 7951000000,
+              "duration": 5838000000,
               "status": "passed"
             },
             "match": {
-              "location": "StepDefinations.Hooks.setWebDriverProperties()"
+              "location": "stepDefinations.Hooks.setWebDriverProperties()"
             }
           }
         ],
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22000000000,
+              "duration": 41333000000,
               "status": "passed"
             },
             "line": 4,
@@ -40,13 +40,13 @@
                   "offset": 56
                 }
               ],
-              "location": "StepDefinations.StepDefinationWeatherComp.website_with_url_is_available(java.lang.String,java.lang.String)"
+              "location": "stepDefinations.StepDefinationWeatherComp.website_with_url_is_available(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 8014000000,
+              "duration": 10895000000,
               "status": "passed"
             },
             "line": 5,
@@ -62,13 +62,13 @@
                   "offset": 46
                 }
               ],
-              "location": "StepDefinations.StepDefinationWeatherComp.user_navigated_to_page_and_pins_the_city(java.lang.String,java.lang.String)"
+              "location": "stepDefinations.StepDefinationWeatherComp.user_navigated_to_page_and_pins_the_city(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 144000000,
+              "duration": 187000000,
               "status": "passed"
             },
             "line": 6,
@@ -80,13 +80,13 @@
                   "offset": 0
                 }
               ],
-              "location": "StepDefinations.StepDefinationWeatherComp.should_be_available_on_the_map(java.lang.String)"
+              "location": "stepDefinations.StepDefinationWeatherComp.should_be_available_on_the_map(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 960000000,
+              "duration": 655000000,
               "status": "passed"
             },
             "line": 7,
@@ -98,7 +98,7 @@
                   "offset": 48
                 }
               ],
-              "location": "StepDefinations.StepDefinationWeatherComp.user_is_able_to_see_weather_details_of_selected_city(java.lang.String)"
+              "location": "stepDefinations.StepDefinationWeatherComp.user_is_able_to_see_weather_details_of_selected_city(java.lang.String)"
             },
             "keyword": "And "
           }
@@ -110,7 +110,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T11:36:57.209Z",
+        "start_timestamp": "2021-01-01T12:50:08.352Z",
         "line": 21,
         "name": "Verify if user can succefully fetch weather information from API",
         "description": "",
@@ -120,7 +120,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4109000000,
+              "duration": 2402000000,
               "status": "passed"
             },
             "line": 15,
@@ -136,13 +136,13 @@
                   "offset": 79
                 }
               ],
-              "location": "StepDefinations.StepDefinationWeatherComp.request_payload_is_available_with_given_and(java.lang.String,java.lang.String)"
+              "location": "stepDefinations.StepDefinationWeatherComp.request_payload_is_available_with_given_and(java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5961000000,
+              "duration": 6248000000,
               "status": "passed"
             },
             "line": 16,
@@ -154,12 +154,13 @@
                   "offset": 27
                 }
               ],
-              "location": "StepDefinations.StepDefinationWeatherComp.user_call_weather_api_using_GET_http_request(java.lang.String)"
+              "location": "stepDefinations.StepDefinationWeatherComp.user_call_weather_api_using_GET_http_request(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 17,
@@ -171,7 +172,7 @@
                   "offset": 37
                 }
               ],
-              "location": "StepDefinations.StepDefinationWeatherComp.api_call_is_success_with_status_code(java.lang.Integer)"
+              "location": "stepDefinations.StepDefinationWeatherComp.api_call_is_success_with_status_code(java.lang.Integer)"
             },
             "keyword": "Then "
           }
@@ -183,7 +184,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-01T11:37:07.303Z",
+        "start_timestamp": "2021-01-01T12:50:17.027Z",
         "line": 25,
         "name": "Compare UI and API temperature",
         "description": "",
@@ -191,11 +192,11 @@
         "after": [
           {
             "result": {
-              "duration": 4834000000,
+              "duration": 548000000,
               "status": "passed"
             },
             "match": {
-              "location": "StepDefinations.Hooks.closeWebDriver()"
+              "location": "stepDefinations.Hooks.closeWebDriver()"
             }
           }
         ],
@@ -204,12 +205,13 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 26,
             "name": "UI tempreature and API temperatures are successfully fetched",
             "match": {
-              "location": "StepDefinations.StepDefinationWeatherComp.ui_tempreature_and_API_temperatures_are_successfully_fetched()"
+              "location": "stepDefinations.StepDefinationWeatherComp.ui_tempreature_and_API_temperatures_are_successfully_fetched()"
             },
             "keyword": "Given "
           },
@@ -220,19 +222,19 @@
             "line": 27,
             "name": "Compares temp",
             "match": {
-              "location": "StepDefinations.StepDefinationWeatherComp.compares_temp()"
+              "location": "stepDefinations.StepDefinationWeatherComp.compares_temp()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 28,
             "name": "Validate if temperature difference is less than given variance",
             "match": {
-              "location": "StepDefinations.StepDefinationWeatherComp.validate_if_temperature_difference_is_less_than_given_variance()"
+              "location": "stepDefinations.StepDefinationWeatherComp.validate_if_temperature_difference_is_less_than_given_variance()"
             },
             "keyword": "Then "
           }
@@ -248,7 +250,7 @@
     "description": "",
     "id": "compare-weather-information",
     "keyword": "Feature",
-    "uri": "file:src/test/java/Features/WeatherComparator.feature",
+    "uri": "file:src/test/java/features/WeatherComparator.feature",
     "tags": []
   }
 ]
